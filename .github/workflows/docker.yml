@@ -29,8 +29,8 @@ jobs:
 
     - name: Tag Docker image for Docker Hub
       run: |
-        docker tag my-nginx:latest yourdockerhubusername/my-nginx:latest
+        docker tag my-nginx:latest mohamadnia/my-nginx:latest
 
     - name: Push Docker image
       run: |
-        docker push yourdockerhubusername/my-nginx:latest
+        docker push mohamadnia/my-nginx:latest
